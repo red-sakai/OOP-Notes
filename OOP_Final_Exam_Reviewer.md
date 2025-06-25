@@ -31,7 +31,8 @@ trimmed = "  hi  ".strip()  # "hi"
 sentence = "  The quick brown fox jumps over the lazy dog.  "
 words = sentence.strip().split()  # ['The', 'quick', 'brown', ...]
 new_sentence = '-'.join(words)    # 'The-quick-brown-fox-jumps-over-the-lazy-dog.'
-index = sentence.find("fox")      # 16
+index = sentence.find("fox")  
+    # 16
 formatted = f"Animal: {words[3].capitalize()}"  # 'Animal: Fox'
 ```
 
